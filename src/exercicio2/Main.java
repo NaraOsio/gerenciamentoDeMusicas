@@ -30,7 +30,7 @@ public class Main {
                     playlist.anterior();
                     break;
                 case 3:
-                    System.out.println(" ");
+                    System.out.println(" Digite 1 para ordenar por titulo ou 2 para ordenar por artista ");
                     int tipo = sc.nextInt();
                     sc.nextLine();
                     if (tipo == 1) {
